@@ -2,8 +2,8 @@
 # Exit on any error
 set -o errexit
 
-# Collect static files
-python manage.py collectstatic --noinput
+echo "Running migrations..."
+python manage.py migrate --noinput
 
-# Apply database migrations
-python manage.py migrate
+echo "Collecting static files..."
+python manage.py collectstatic --noinput --clear
