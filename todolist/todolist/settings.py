@@ -150,7 +150,7 @@ SIMPLE_JWT = {
 }
 
 CORS_ALLOWED_ORIGINS = [
-    "https://todolistappfrontend.netlify.app/"
+    "https://todolistappfrontend.netlify.app"
 ]
 
 AUTH_USER_MODEL = 'tasks.CustomUser' 
