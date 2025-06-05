@@ -150,8 +150,7 @@ SIMPLE_JWT = {
 }
 
 CORS_ALLOWED_ORIGINS = [
-    "http://localhost:5173",  #  frontend
-    "https://your-netlify-app.netlify.app",  # Placeholder; update after Netlify deploy
+    "https://todolistappfrontend.netlify.app/"
 ]
 
 AUTH_USER_MODEL = 'tasks.CustomUser' 
